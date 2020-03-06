@@ -33,8 +33,8 @@ public class Application {
 	@Bean
 	OrganizationRepository repository() {
 		OrganizationRepository repository = new OrganizationRepository();
-		repository.add(new Organization("Microsoft", "Redmond, Washington, USA"));
-		repository.add(new Organization("Oracle", "Redwood City, California, USA"));
+		repository.add(new Organization("Google", "Mountain View, California, USA"));
+		repository.add(new Organization("Apple", "Cupertino, California, USA"));
 		return repository;
 	}
 	
